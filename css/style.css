@@ -454,6 +454,7 @@ body._lock {
   margin-bottom: 15px;
   position: relative;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .main__title::after {
@@ -701,6 +702,7 @@ body._lock {
   color: #4262B1;
   text-align: center;
   margin-bottom: 70px;
+  text-transform: uppercase;
 }
 
 .hotel__body {
@@ -930,23 +932,32 @@ body._lock {
   color: #FFFFFF;
   margin-bottom: 40px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .sport__slider {
   max-width: 567px;
-  margin: 0 auto 30px;
-  max-height: 333px;
+  margin: 0 auto;
   height: 100%;
   overflow: hidden;
-  border-radius: 20px;
   position: relative;
 }
 
 .sport__slide {
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-.sport__slide img {
+.sport__image {
+  position: relative;
+  max-height: 330px;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.sport__image img {
   position: absolute;
   top: 0;
   left: 0;
@@ -963,10 +974,10 @@ body._lock {
 
 .sport__navigation {
   position: absolute;
-  top: 50%;
+  top: 150px;
   left: 50%;
   width: 95%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1104,6 +1115,7 @@ body._lock {
   color: #262626;
   margin-bottom: 40px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .rooms__body {
@@ -1289,6 +1301,7 @@ body._lock {
   color: #262626;
   text-align: center;
   margin-bottom: 25px;
+  text-transform: uppercase;
   font-size: calc(1.5rem + 16 * (100vw - 20rem) / 1120);
 }
 
@@ -1509,6 +1522,7 @@ body._lock {
   color: #262626;
   margin-bottom: 25px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .food__subtitle {
@@ -1815,6 +1829,7 @@ body._lock {
   color: #262626;
   text-align: center;
   margin-bottom: 25px;
+  text-transform: uppercase;
 }
 
 .calendar__subtitle {
@@ -1997,6 +2012,7 @@ body._lock {
   color: #262626;
   margin-bottom: 25px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .transfer__subtitle {
@@ -2149,6 +2165,7 @@ body._lock {
   text-align: center;
   position: relative;
   z-index: 1;
+  text-transform: uppercase;
 }
 
 .reviews__body {
@@ -2387,6 +2404,7 @@ body._lock {
   letter-spacing: 0.05em;
   color: #4262B1;
   margin-bottom: 70px;
+  text-transform: uppercase;
 }
 
 .faq__body {
@@ -3319,7 +3337,7 @@ body._lock {
     right: 0;
   }
 
-  .sport__slider {
+  .sport__image {
     height: calc(190px + 140 * (100vw - 320px) / 673);
   }
 
@@ -3408,6 +3426,10 @@ body._lock {
   .photos-hotel__frame {
     width: calc(340px + 110 * (100vw - 768px) / 225);
     height: calc(315px + 45 * (100vw - 768px) / 225);
+  }
+
+  .sport__navigation {
+    top: calc(85px + 65 * (100vw - 320px) / 673);
   }
 
   .programm__list::before {
