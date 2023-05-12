@@ -2,6 +2,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400%3b500%3b600%3b700%3b800&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -82,22 +84,6 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
-}
-
-@font-face {
-  font-family: "Aqum";
-  font-display: swap;
-  src: url("../fonts/Aqum.woff2") format("woff2"), url("../fonts/Aqum.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "AqumSmall";
-  font-display: swap;
-  src: url("../fonts/Aqum-small.woff2") format("woff2"), url("../fonts/Aqum-small.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
 }
 
 :root {
@@ -223,7 +209,7 @@ body._lock {
 }
 
 .logo__link span {
-  font-family: "aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 2rem;
   color: #4262B1;
@@ -446,7 +432,7 @@ body._lock {
 }
 
 .main__intro {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 1.125rem;
   color: #FFFFFF;
@@ -460,7 +446,7 @@ body._lock {
 }
 
 .main__title {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 3.5rem;
   letter-spacing: 0.05em;
@@ -601,7 +587,7 @@ body._lock {
 }
 
 .plus__title {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 900;
   font-size: 1.25rem;
   color: #262626;
@@ -708,7 +694,7 @@ body._lock {
 }
 
 .hotel__title {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 0.05em;
@@ -849,7 +835,7 @@ body._lock {
 }
 
 .info-hotel__title {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 1.5rem;
   color: #262626;
@@ -937,7 +923,7 @@ body._lock {
 }
 
 .sport__title {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 0.05em;
@@ -1111,7 +1097,7 @@ body._lock {
 }
 
 .rooms__title {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 0.05em;
@@ -1296,7 +1282,7 @@ body._lock {
 }
 
 .programm__title {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 0.05em;
@@ -1516,7 +1502,7 @@ body._lock {
 }
 
 .food__title {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 0.05em;
@@ -1542,7 +1528,7 @@ body._lock {
 }
 
 .food__kitchen {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 1.5rem;
   color: #262626;
@@ -1763,7 +1749,7 @@ body._lock {
 }
 
 .price__total {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 0.05em;
@@ -1822,7 +1808,7 @@ body._lock {
 }
 
 .calendar__title {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 0.05em;
@@ -1905,7 +1891,7 @@ body._lock {
 }
 
 .calendar__item:first-child {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 1.25rem;
   color: #000000;
@@ -2004,7 +1990,7 @@ body._lock {
 }
 
 .transfer__title {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 0.05em;
@@ -2022,7 +2008,7 @@ body._lock {
 }
 
 .transfer__desc {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -2154,7 +2140,7 @@ body._lock {
 }
 
 .reviews__title {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 0.05em;
@@ -2395,7 +2381,7 @@ body._lock {
 }
 
 .faq__title {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 0.05em;
@@ -2522,7 +2508,7 @@ body._lock {
 }
 
 .logo-footer__link span {
-  font-family: "Aqum";
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   font-size: 2rem;
   color: #FFFFFF;
@@ -3541,7 +3527,7 @@ body._lock {
 
   .main {
     padding-top: 80px;
-    max-height: 875px;
+    max-height: calc(400px + 100 * (100vw - 320px) / 448);
   }
 
   .plus__image {
